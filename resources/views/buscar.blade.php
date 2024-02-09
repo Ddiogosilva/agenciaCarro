@@ -28,7 +28,7 @@
     </tr>
   </thead>
   <tbody>
-    @foreach($agencias as $agenciaArray);
+    @foreach($agencias as $agenciaArray)
     <tr>
       <th scope="row">{{$agenciaArray->id}}</th>
       <td>{{$agenciaArray->nomeCarro}}</td>
